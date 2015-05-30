@@ -3,7 +3,7 @@
 int global_init_int = 1;
 int global_non_init_int;
 char global_string_array[] = "I am a global string array";
-char global_string_pointer = "I am a global string pointer";
+char *global_string_pointer = "I am a global string pointer";
 
 int function(int param1, int param2)
 {
